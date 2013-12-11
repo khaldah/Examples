@@ -25,8 +25,9 @@ public class CompositePatternDemo {
       System.out.println(CEO); 
       for (Employee headEmployee : CEO.getSubordinates()) {
          System.out.println(headEmployee);
-         for (Employee employee : headEmployee.getSubordinates()) {
-            System.out.println(employee);
+         for (Employee employee :          headEmployee.getSubordinates()) {
+            System.out.println("1",+employee);
+System.out.println(("2",+employee);
          }
       }		
    }
